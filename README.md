@@ -7,7 +7,7 @@ versi pendek dari basis data [alquran](https://github.com/harigro/basis_data).
 ## Cara Menggunkan api
 kode dibawah ini sama dengan kode program pada **main.py**
 ```python
-from api import Surah
+from api import Surah, Juz
 import pprint
 
 
@@ -28,7 +28,11 @@ def data_ayat():
         print(aa.ayat[str(i+1)]['teksIndonesia'])
         print()
 
+def data_juz(nomor_urut: int):
+    return Juz(nomor_urut).data
+
 if __name__ == '__main__': 
     print(aa.data)
     data_ayat()
+    print(data_juz(1))
 ```
