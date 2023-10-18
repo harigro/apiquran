@@ -1,7 +1,7 @@
 # apiquran
 Sangat penting bagi umat muslim untuk membaca dan menghafal al-quran\
 karena hal tersebut apiquran hadir. Apiquran adalah pustaka untuk membuat\
-apliaski al-quran berisi informasi surah, terjemahan ayat\
+aplikasi al-quran berisi informasi surah, terjemahan ayat\
 dalam bahasa indonesia, bahasa latin, serta dilengkapi dengan Juz al-quran.
 
 ## Contoh program
@@ -36,12 +36,12 @@ if __name__ == '__main__':
 Pada kelas Surah terdapat dua atribut, penjelasannya sebagai berikut.
 - Surah(parameter).data
   - Mengembalikan informasi surah tersebut berdasarkan perameter
-  bertipe data int. informasi ini bertipe data tuple berurutan
-  berupa nomor, nama, namaLatin, jumlahAyat, tempat turunnya surah,
+  bertipe data int. informasi ini akan memiliki tipe data tuple berurutan
+  berupa nomor, nama dalam bahasa arab, nama dalam bahasa indonesia, jumlah ayat surah, tempat turunnya surah,
   dan artinya dalam bahasa indonesia.
 ---
 - Surah(parameter).ayat
-  - Mengembalikan ayat berdasarkan perameter bertipe data int.
+  - Mengembalikan ayat berdasarkan parameter bertipe data int.
 ---
 ## Pengelompokan berdasarkan juz
 - Juz(parameter).data 
