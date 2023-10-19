@@ -13,8 +13,8 @@ import pprint
 
 # menampilkan ayat berdasarkan surah
 def tampilkan(surah_quran: Surah):
-    jumlah_ayat = surah_quran.data[1]
-    for i in range(len(jumlah_ayat)):
+    jumlah_ayat = surah_quran.data[3]
+    for i in range(jumlah_ayat):
         print(aa.ayat[str(i+1)]['teksArab'])
         print(aa.ayat[str(i+1)]['teksLatin'])
         print(aa.ayat[str(i+1)]['teksIndonesia'])
